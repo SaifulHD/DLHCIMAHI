@@ -1,0 +1,255 @@
+ERROR - 2022-06-06 00:57:44 --> Unknown column 'titikpantau.kode_tikpan' in 'on clause'
+CRITICAL - 2022-06-06 00:57:44 --> Unknown column 'titikpantau.kode_tikpan' in 'on clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\app\Models\M_titikPantau.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(23): App\Models\M_titikPantau->get_all_data()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->index()
+#7 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#8 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-06 02:07:54 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\BODEksisting->__construct()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-06 03:12:02 --> Undefined index: Nama_sungai
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\main\Statusair.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('main/Statusair', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(49): view('main/Statusair', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->index()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-06 03:18:11 --> Undefined index: Nama_sungai
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\main\Statusair.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('main/Statusair', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(48): view('main/Statusair', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->index()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-06 03:18:12 --> Undefined index: Nama_sungai
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\main\Statusair.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('main/Statusair', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(48): view('main/Statusair', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->index()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-06 03:18:13 --> Undefined index: Nama_sungai
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\main\Statusair.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('main/Statusair', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(48): view('main/Statusair', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->index()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-06 03:42:28 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 03:42:28 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `beban_p...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `beban_p...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `beban_p...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `beban_p...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(157): App\Controllers\Home->checkNilaiBodek('Hulu', '2022-06')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-06 03:42:36 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 03:42:36 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `beban_p...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `beban_p...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `beban_p...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `beban_p...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(157): App\Controllers\Home->checkNilaiBodek('Hulu', '2022-06')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-06 03:42:37 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 03:42:37 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `beban_p...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `beban_p...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `beban_p...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `beban_p...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(157): App\Controllers\Home->checkNilaiBodek('Hulu', '2022-06')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-06 04:00:42 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 04:00:42 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 04:00:55 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 04:00:55 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 04:00:56 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 04:00:56 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 04:00:57 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 04:00:57 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 04:00:57 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 04:00:57 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 04:01:07 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 04:01:07 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 06:13:06 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 06:13:06 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 06:16:16 --> Unknown column 'periode' in 'where clause'
+CRITICAL - 2022-06-06 06:16:16 --> Unknown column 'periode' in 'where clause'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 06:52:15 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+CRITICAL - 2022-06-06 06:52:15 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 06:52:17 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+CRITICAL - 2022-06-06 06:52:17 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 06:52:20 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+CRITICAL - 2022-06-06 06:52:20 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-06 06:52:22 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+CRITICAL - 2022-06-06 06:52:22 --> Table 'db_dlhcimahi.tbltitikpantai' doesn't exist
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT waktu_sa...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT waktu_sa...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT waktu_sa...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(143): CodeIgniter\Database\BaseConnection->query('SELECT waktu_sa...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->bodeksisting()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

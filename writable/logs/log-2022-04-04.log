@@ -1,0 +1,20 @@
+CRITICAL - 2022-04-04 02:47:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-04-04 02:48:06 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-04-04 02:48:15 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-04-04 02:48:17 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-04-04 03:14:39 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}

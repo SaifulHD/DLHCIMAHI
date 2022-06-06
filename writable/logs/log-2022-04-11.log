@@ -1,0 +1,32 @@
+ERROR - 2022-04-11 20:04:40 --> Unknown column 'video' in 'field list'
+CRITICAL - 2022-04-11 20:04:40 --> Unknown column 'video' in 'field list'
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\app\Models\M_titikPantau.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(115): App\Models\M_titikPantau->insert_data(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->save()
+#7 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#8 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-11 20:12:21 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/gis/v_map...', Array, true)
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\app\Views\layout\content.php(5): view('pages/gis/v_map...')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/content', Array, true)
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\app\Views\layout\wrapper.php(4): view('layout/content')
+#7 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('layout/wrapper', Array, true)
+#10 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\gisTitikPantau.php(22): view('layout/wrapper', Array)
+#11 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\gisTitikPantau->index()
+#12 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\gisTitikPantau))
+#13 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#16 {main}

@@ -1,0 +1,159 @@
+CRITICAL - 2022-04-12 02:04:07 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 02:05:31 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 02:08:16 --> Undefined property: App\Controllers\BODEksisting::$BODEksistingModel
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(358): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 358, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-12 02:10:59 --> Column 'nama_sungai' cannot be null
+CRITICAL - 2022-04-12 02:10:59 --> Column 'nama_sungai' cannot be null
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(361): App\Models\BODEksistingModel->insertexceldata(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-12 02:11:41 --> Column 'nama_sungai' cannot be null
+CRITICAL - 2022-04-12 02:11:41 --> Column 'nama_sungai' cannot be null
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(361): App\Models\BODEksistingModel->insertexceldata(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-12 02:12:01 --> Column 'nama_sungai' cannot be null
+CRITICAL - 2022-04-12 02:12:01 --> Column 'nama_sungai' cannot be null
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(361): App\Models\BODEksistingModel->insertexceldata(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-04-12 02:12:36 --> Column 'nama_sungai' cannot be null
+CRITICAL - 2022-04-12 02:12:36 --> Column 'nama_sungai' cannot be null
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(361): App\Models\BODEksistingModel->insertexceldata(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-12 05:28:17 --> File "" does not exist.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(389): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('', '_rels/.rels')
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(343): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-12 05:35:24 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 363, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(363): date('Y-m-d', '2020-02-30')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-12 05:35:30 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 207622144 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-12 05:47:18 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 361, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(361): explode('/', Array)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-12 05:47:24 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 207622144 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-12 11:54:43 --> Operand should contain 1 column(s)
+CRITICAL - 2022-04-12 11:54:43 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(363): App\Models\BODEksistingModel->insertexceldata(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-12 11:54:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-12 11:55:16 --> Operand should contain 1 column(s)
+CRITICAL - 2022-04-12 11:55:16 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(61): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(363): App\Models\BODEksistingModel->insertexceldata(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->importexcel()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-12 11:55:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264245248 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-12 13:29:11 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-12 13:29:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Auth.php(23): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

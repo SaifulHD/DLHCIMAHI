@@ -1,0 +1,298 @@
+ERROR - 2022-06-05 10:23:55 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:23:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Auth.php(23): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-05 10:24:31 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2022-06-05 10:24:31 --> Unknown column 'tanggal' in 'field list'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT YEAR(tan...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT YEAR(tan...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT YEAR(tan...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT YEAR(tan...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(35): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-05 10:28:40 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:28:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(59): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->tercemar()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-05 10:28:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Mutuair), true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseExcept
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-05 10:29:42 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:29:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(59): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->tercemar()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-05 10:29:42 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Mutuair), true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseExcept
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-05 10:29:44 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:29:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(59): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->tercemar()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-05 10:29:44 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Mutuair), true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseExcept
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-05 10:29:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:29:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(59): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->tercemar()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-05 10:29:46 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Mutuair), true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseExcept
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-05 10:29:47 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:29:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(59): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->tercemar()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-05 10:29:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Mutuair), true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseExcept
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-05 10:29:48 --> Invalid file: /main/mutuair.php
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/main/mutuair.p...')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/main/mutuair', Array, true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(263): view('/main/mutuair')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->statusair()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-06-05 10:29:52 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:29:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Mutuair.php(59): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Mutuair->tercemar()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mutuair))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-05 10:29:52 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Mutuair), true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseExcept
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-05 10:29:53 --> Invalid file: /main/mutuair.php
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/main/mutuair.p...')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/main/mutuair', Array, true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(263): view('/main/mutuair')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->statusair()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-06-05 10:30:01 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:30:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Auth.php(23): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-05 10:30:07 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2022-06-05 10:30:07 --> Unknown column 'tanggal' in 'field list'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT YEAR(tan...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT YEAR(tan...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT YEAR(tan...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT YEAR(tan...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(35): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-05 10:41:10 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 10:41:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Auth.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-05 10:41:35 --> Table 'db_dlhcimahi.titik_pantau' doesn't exist
+CRITICAL - 2022-06-05 10:41:35 --> Table 'db_dlhcimahi.titik_pantau' doesn't exist
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(29): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-05 11:17:37 --> Column 'id' cannot be null
+CRITICAL - 2022-06-05 11:17:37 --> Column 'id' cannot be null
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(109): App\Models\BODEksistingModel->bod_eksisting_post(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->create_bod()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-05 11:58:40 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-05 11:58:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Auth.php(23): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-05 11:59:02 --> Table 'db_dlhcimahi.thread' doesn't exist
+CRITICAL - 2022-06-05 11:59:02 --> Table 'db_dlhcimahi.thread' doesn't exist
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(37): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-05 12:02:05 --> Table 'db_dlhcimahi.thread' doesn't exist
+CRITICAL - 2022-06-05 12:02:05 --> Table 'db_dlhcimahi.thread' doesn't exist
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(37): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

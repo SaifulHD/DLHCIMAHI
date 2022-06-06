@@ -1,0 +1,131 @@
+CRITICAL - 2022-05-16 21:39:59 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652755199_3ba1...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('1')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 21:42:50 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(189): session()
+#9 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('1')
+#10 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#11 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-05-16 21:42:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\DlhKotaCimahi-main\app\Config\Events.php:32) in C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 21:42:58 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(189): session()
+#9 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('1')
+#10 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#11 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-05-16 21:42:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\DlhKotaCimahi-main\app\Config\Events.php:32) in C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 21:43:24 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652755404_2b4d...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('1')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 21:48:48 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652755728_5272...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('1')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 21:49:15 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652755755_806f...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('1')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 22:14:03 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652757243_5f16...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('32')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 22:14:19 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652757259_5ded...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('32')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 22:14:53 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652757293_170c...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('32')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 22:15:16 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652757316_3cad...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('32')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-16 22:21:18 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\DlhKotaCimahi-main\app\Controllers\dataTitikPantau.php(207): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1652757678_7210...')
+#2 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\dataTitikPantau->update('32')
+#3 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dataTitikPantau))
+#4 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\DlhKotaCimahi-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\DlhKotaCimahi-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

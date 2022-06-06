@@ -1,0 +1,442 @@
+CRITICAL - 2022-03-24 02:37:33 --> Invalid file: /pages/BODEksisting/index.php
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pages/BODEksis...')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/pages/BODEksis...', Array, true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\Home.php(47): view('/pages/BODEksis...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->BODEksisting()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 12:06:27 --> Undefined variable: bodeks
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\feedback\delete__modal.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('/feedback/delet...', NULL, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\bodlist.php(86): CodeIgniter\View\View->include('/feedback/delet...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#8 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(26): view('pages/BODEksist...', Array)
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->listbod()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#11 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-24 12:09:45 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 12:12:21 --> Undefined index: ID_BOD_Eksisting
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\feedback\delete__modal.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('/feedback/delet...', NULL, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\bodlist.php(85): CodeIgniter\View\View->include('/feedback/delet...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#8 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(26): view('pages/BODEksist...', Array)
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->listbod()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#11 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-24 12:12:48 --> Undefined index: ID_BOD_Eksisting
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\feedback\delete__modal.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('/feedback/delet...', NULL, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\bodlist.php(85): CodeIgniter\View\View->include('/feedback/delet...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#8 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(26): view('pages/BODEksist...', Array)
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->listbod()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#11 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-24 12:13:49 --> Undefined index: ID_BOD_Eksisting
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\feedback\delete__modal.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('/feedback/delet...', NULL, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\bodlist.php(85): CodeIgniter\View\View->include('/feedback/delet...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#8 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(26): view('pages/BODEksist...', Array)
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->listbod()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#11 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-24 12:14:11 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 12:20:22 --> Undefined variable: ID_BOD_Eksisting
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-24 12:20:42 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(96): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 12:28:14 --> Call to undefined method App\Models\BODEksistingModel::searchBy
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(95): CodeIgniter\Model->__call('searchBy', Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-24 12:29:39 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(96): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 12:31:37 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(96): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 12:34:28 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(96): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 12:37:04 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(96): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 12:38:30 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(96): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 12:38:51 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 12:39:02 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 12:39:18 --> Too few arguments to function App\Models\BODEksistingModel::searchBy(), 1 passed in C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php on line 95 and exactly 2 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(95): App\Models\BODEksistingModel->searchBy('ID_BOD_Eksistin...')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-24 12:43:19 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 12:43:57 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 13:05:52 --> Too few arguments to function App\Controllers\BODEksisting::update_list_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 13:10:22 --> Undefined variable: data
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(104): view('pages/BODEksist...', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 13:14:00 --> Undefined variable: bod
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(104): view('pages/BODEksist...', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 13:15:34 --> Undefined variable: bod
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(104): view('pages/BODEksist...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 13:15:36 --> Undefined variable: bod
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(104): view('pages/BODEksist...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 13:15:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(104): view('pages/BODEksist...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 13:19:30 --> Undefined variable: bod
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(104): view('pages/BODEksist...')
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 13:21:27 --> Undefined variable: bod
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(108): view('pages/BODEksist...', Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 13:29:51 --> Undefined index: debit
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('2')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-24 13:58:11 --> There is no data to update.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(104): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_bod()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 14:06:56 --> There is no data to update.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(97): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_bod()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 14:09:00 --> There is no data to update.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(97): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_bod()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 14:10:32 --> There is no data to update.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(97): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_bod()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 14:12:31 --> There is no data to update.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(97): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_bod()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-24 14:15:19 --> Duplicate entry '10' for key 'PRIMARY'
+CRITICAL - 2022-03-24 14:15:19 --> Duplicate entry '10' for key 'PRIMARY'
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\app\Models\BODEksistingModel.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(103): App\Models\BODEksistingModel->bod_eksisting_post(Array)
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_bod()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-24 14:15:43 --> There is no data to update.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(103): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_bod()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#6 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 14:23:43 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 14:29:14 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(106): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 14:30:52 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 14:31:16 --> Too few arguments to function App\Controllers\BODEksisting::delete_bod(), 0 passed in C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-24 14:31:36 --> Too few arguments to function App\Models\BODEksistingModel::searchBy(), 1 passed in C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php on line 105 and exactly 2 expected
+#0 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(105): App\Models\BODEksistingModel->searchBy('ID_BOD_Eksistin...')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#2 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-24 14:34:50 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(106): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->delete_bod()
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-24 14:52:40 --> Invalid file: /feedback/update__modal.php
+#0 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/feedback/updat...')
+#1 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('/feedback/updat...', NULL, true)
+#2 C:\xampp\htdocs\DlhKotaCimahi\app\Views\pages\BODEksisting\update.php(130): CodeIgniter\View\View->include('/feedback/updat...')
+#3 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/BODEksist...', Array, true)
+#6 C:\xampp\htdocs\DlhKotaCimahi\app\Controllers\BODEksisting.php(120): view('pages/BODEksist...', Array)
+#7 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\BODEksisting->update_list_bod('4')
+#8 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BODEksisting))
+#9 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\DlhKotaCimahi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\DlhKotaCimahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

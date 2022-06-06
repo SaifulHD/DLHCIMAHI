@@ -1,0 +1,124 @@
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .custom__container__auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #0575e6 0%, #3d6988 84.79%, #3d6988 100%);
+  }
+
+  .custom__container__auth img {
+    width : 200px ; 
+    height :200.03px;
+  }
+  
+  .custon__button__auth {
+    width: 100%;
+    height: 50px;
+    border-radius: 35px;
+    background: #3d6988;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: light;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+  }
+
+  /* grafik */
+  .grafik {
+  margin-top: 5%;
+  margin-bottom: 200px;
+  padding: 15px 20px;
+  position: relative;
+  transition: 3s;
+  }
+  
+  .Grafikpilihan {
+  padding-top: 160px;
+  }
+
+  .dashboard{
+    height: 70%;
+  }
+
+  /* card */
+  .dashboard .info-card {
+    /* padding-bottom: 30px;
+    padding-top: 10px; */
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    background: #f6f6fe;
+  }
+
+  .dashboard .info-card .card-icon {
+    font-size: 32px;
+    line-height: 0;
+    margin-top: 15%;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    color: #f6f6fe;
+    background: #3d6988;
+  }
+  .dashboard .info-card h6 {
+    font-size: 16px;
+    color: #012970;
+    font-weight: 1000;
+    margin-top: 50px;
+  }
+  
+  /* card */
+
+  .Grafikpilihan #grafik-flters {
+    margin-top: -50%;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  .Grafikpilihan #grafik-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 18px 10px 18px;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    font-weight: 800;
+    color: #3d6988;
+    align-items: center;
+    width: 90%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background: #f6f6fe;
+  }
+
+  /* grafik */
+  .grafik {
+  margin-top: -5%;
+  width: 100%;
+  position: relative;
+  transition: 3s;
+  }
+
+  .card {
+    margin-bottom: 30px;
+    border: none;
+    /* box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1); */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    /* background: #f6f6fe; */
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  
+
+} 
